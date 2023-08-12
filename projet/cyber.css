@@ -1,0 +1,311 @@
+
+
+.top-bar {
+  /* background: rgba(0, 0, 0, 0.8); */
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 10px 0;
+  opacity: 8.8;
+  margin-bottom: -70px;
+}
+
+.top-bar .contact-info {
+  margin-right: 20px;
+}
+
+.top-bar .contact-info a {
+  font-size: 0.8rem;
+}
+
+.top-bar ul.social-custom {
+  margin-left: 20px;
+}
+
+.top-bar ul.social-custom a:hover {
+  background: #4fbfa8;
+  color: #fff;
+}
+.top-bar ul.social-custom a {
+  text-decoration: none !important;
+  font-size: 0.7rem;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  color: #999;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0;
+}
+a:focus, a:hover {
+  color: #348e7b;
+  text-decoration: underline;
+}
+
+/* images pincipales */
+
+#imagesprincipales{
+  padding-top: 150px;
+  background: url(Cloud3.png) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 650px;
+}
+
+
+#home h1{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 6em;
+  margin-top: 130px;
+  text-shadow: 2px 3px 2px black;
+  font-size: 8em;
+}
+#premiertrait{
+  font-family: 'Oxygen', sans-serif;
+  height: 1px;
+  width: 45%;
+  margin: -3px auto;
+  /* background-color: #FFFAE1; */
+}
+#home h3{
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 2.3em;
+  text-shadow: 2px 3px 2px black;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+
+
+/* cookiessss */
+
+#cookie-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+
+#cookie-banner h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#cookie-banner p {
+  color: white;
+  font-size: 16px;
+}
+
+#cookie-banner a {
+  color: white;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+#cookie-banner button {
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+#myCarousel .carousel-item .mask {
+    position: absolute;
+    top: 0;
+	left:0;
+	height:100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+#myCarousel h4{
+	font-size:50px;
+	margin-bottom:15px;
+	color:#FFF;
+	line-height:100%;
+	letter-spacing:0.5px;
+	font-weight:600;
+}
+#myCarousel p{
+	font-size:18px;
+	margin-bottom:15px;
+	color:#d5d5d5;
+}
+#myCarousel .carousel-item a{background:#F47735; font-size:14px; color:#FFF; padding:13px 32px; display:inline-block; }
+#myCarousel .carousel-item a:hover{background:#394fa2; text-decoration:none;  }
+
+#myCarousel .carousel-item h4{-webkit-animation-name:fadeInLeft; animation-name:fadeInLeft;} 
+#myCarousel .carousel-item p{-webkit-animation-name:slideInRight; animation-name:slideInRight;} 
+#myCarousel .carousel-item a{-webkit-animation-name:fadeInUp; animation-name:fadeInUp;}
+#myCarousel .carousel-item .mask img{-webkit-animation-name:slideInRight; animation-name:slideInRight; display:block; height:auto; max-width:100%;}
+#myCarousel h4, #myCarousel p, #myCarousel a, #myCarousel .carousel-item .mask img{-webkit-animation-duration: 1s;
+    animation-duration: 1.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+#myCarousel .container {max-width: 1430px;  }
+#myCarousel .carousel-item{height:100%; min-height:550px; }
+#myCarousel{position:relative; z-index:1; background:url(Bgr3.png) center center no-repeat; background-size:cover; }
+
+.carousel-control-next, .carousel-control-prev{height:40px; width:40px; padding:12px; top:50%; bottom:auto; transform:translateY(-50%); background-color: #f47735; }
+
+
+.carousel-item {
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+.carousel-fade .carousel-item {
+	opacity: 0;
+	-webkit-transition-duration: .6s;
+	transition-duration: .6s;
+	-webkit-transition-property: opacity;
+	transition-property: opacity
+}
+.carousel-fade .carousel-item-next.carousel-item-left, .carousel-fade .carousel-item-prev.carousel-item-right, .carousel-fade .carousel-item.active {
+	opacity: 1
+}
+.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-right.active {
+	opacity: 0
+}
+.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
+	-webkit-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0)
+}
+
+.service{
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.feature-icon-small {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* les six cartes */
+
+.bkg h3{
+  color: white;
+}
+
+.bkg small{
+  color: white;
+}
+
+/* footer */
+.context-dark, .bg-gray-dark, .bg-primary {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+  color: #ffffff;
+}
+.nav-list li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+  margin-left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 23px;
+  font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+  content: "\f14f";
+  font: 400 21px/1 "Material Design Icons";
+  color: #4d6de6;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: -28px;
+  margin-right: 7px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .22s ease;
+}
+
+/* responsive design */
+@media screen and (max-width: 1200px) {
+  #home h1 {
+    margin-top: 220px;
+    font-size: 65px;
+  }
+
+  #home h3 {
+    font-size: 22px;
+  }
+  
+}
+
+
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
+
+
+
+
